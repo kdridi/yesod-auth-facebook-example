@@ -1,0 +1,9 @@
+[submodule "submodules/yesod-auth-fb.git"]
+	path = submodules/yesod-auth-fb.git
+	url = git@github.com:kdridi/yesod-auth-fb.git
+[submodule "submodules/yesod-fb.git"]
+	path = submodules/yesod-fb.git
+	url = git@github.com:kdridi/yesod-fb.git
+[submodule "submodules/fb.git"]
+	path = submodules/fb.git
+	url = git@github.com:kdridi/fb.git
