@@ -1,0 +1,22 @@
+Default: &defaults
+  host: "*4" # any IPv4 host
+  port: 3000
+  approot: "http://localhost:3000"
+  copyright: Insert copyright statement here
+  facebookAppName: FACEBOOK_APP_NAME
+  facebookAppId: FACEBOOK_APP_ID
+  facebookAppSecret: FACEBOOK_APP_SECRET
+  #analytics: UA-YOURCODE
+
+Development:
+  <<: *defaults
+
+Testing:
+  <<: *defaults
+
+Staging:
+  <<: *defaults
+
+Production:
+  #approot: "http://www.example.com"
+  <<: *defaults
