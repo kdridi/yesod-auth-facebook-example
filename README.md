@@ -1,7 +1,7 @@
 yesod-auth-facebook-example
 ===========================
 
-This contains an empty Yesod App that uses Facebook authentication system.
+This contains an empty Yesod App that uses the Facebook authentication system.
 
 Installing
 ----------
@@ -18,6 +18,10 @@ Configuring
 -----------
 
 You'll then need to configure your Facebook credentials by editing **config/settings.yml**
+
+Please also verify that your Facebook's redirection URL is [http://localhost:3000/auth/page/fb/proceed](http://localhost:3000/auth/page/fb/proceed)
+
+You'll find more informations at [https://developers.facebook.com/apps/](https://developers.facebook.com/apps/)
 
 Launching
 ---------
