@@ -9,9 +9,9 @@ Installing
 Prepare the sandbox:
 
 ```bash
-$ git clone https://github.com/kdridi/yesod-auth-facebook-example.git
-$ cd yesod-auth-facebook-example
-$ ./sandbox-init.sh
+git clone https://github.com/kdridi/yesod-auth-facebook-example.git
+cd yesod-auth-facebook-example
+./sandbox-init.sh
 ```
 
 Configuring
@@ -25,7 +25,7 @@ Launching
 Just launch:
 
 ```bash
-$ yesod devel
+yesod devel
 ```
 
 Then open [http://localhost:3000](http://localhost:3000) with your browser
